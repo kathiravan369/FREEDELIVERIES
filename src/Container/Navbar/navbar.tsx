@@ -32,10 +32,11 @@ const NavbarSection: React.FC = () => {
         alignItems="center"
         justifyContent="center"
         item
-        md={2}  mt={2}
+        md={2}
+        mt={2}
         className={`${styles.homeLogoHeading}`}
       >
-        <Grid style={{ position: "relative" ,justifyContent:"center"}}>
+        <Grid style={{ position: "relative", justifyContent: "center" }}>
           {" "}
           <span style={{ position: "relative" }}>H</span>
           <Image className={`${styles.homeLogoImages}`} src={homeLogo} alt="" />
@@ -43,10 +44,14 @@ const NavbarSection: React.FC = () => {
         </Grid>
       </Grid>
 
-      <Grid  container
+      <Grid
+        container
         alignItems="center"
         justifyContent="center"
-         item md={7} mt={2}>
+        item
+        md={7}
+        mt={2}
+      >
         <Grid item xs className={`${styles.menu}`}>
           <Grid item container justifyContent="center" spacing={5}>
             {navItems.map((item, index) => (
@@ -64,9 +69,14 @@ const NavbarSection: React.FC = () => {
           </Grid>
         </Grid>
       </Grid>
-      <Grid  container  mt={2}
+      <Grid
+        container
+        mt={2}
         alignItems="center"
-        justifyContent="center" item md={3}>
+        justifyContent="center"
+        item
+        md={3}
+      >
         <Box sx={{ display: "flex", alignItems: "center", gap: 5 }}>
           <Button className={`${styles.searchButton}`} variant="outlined">
             Search

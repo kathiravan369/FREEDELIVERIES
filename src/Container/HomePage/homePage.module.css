@@ -4,7 +4,6 @@
   border-radius: 18px;
   opacity: 0px;
   background-color: #ffcd4f;
-  
 }
 
 .heading {
@@ -18,52 +17,50 @@
   color: #fffefc;
 }
 .homePageColour {
-    height:100%;
-    background-color: black;
-    background-image: url("../../assets/homePageColour.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
+  height: 100%;
+  background-color: black;
+  background-image: url("../../assets/homePageColour.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.couponImage{
-    padding: 10px;
-    height:100%;
-    background-color: black;
-    background-image: url("../../assets/couponImage.svg");
-    background-repeat: repeat;
-    background-size: cover;
+.couponImage {
+  padding: 10px;
+  height: 100%;
+  background-color: black;
+  background-image: url("../../assets/couponImage.svg");
+  background-repeat: repeat;
+  background-size: cover;
 }
-.fashionShoesContent{
+.fashionShoesContent {
   padding: 15px;
 }
 
-.fashionShoesTitle{
+.fashionShoesTitle {
   font-family: Inter;
-font-size: 15.25px;
-font-weight: 700;
-line-height: 20px;
-text-align: center;
-text-underline-position: from-font;
-
-
+  font-size: 15.25px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+  text-underline-position: from-font;
 }
 
-.fashionShoesHeading{
+.fashionShoesHeading {
   font-family: Inter;
-font-size: 25.81px;
-font-weight: 700;
-line-height: 31.98px;
-text-align: center;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-color: #191919;
+  font-size: 25.81px;
+  font-weight: 700;
+  line-height: 31.98px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #191919;
 }
 
-.menRunningShoesContent{
+.menRunningShoesContent {
   padding: 15px;
 }
 
-.MenRunningShoesHeading{
+.MenRunningShoesHeading {
   font-family: Inter;
   font-size: 14.63px;
   font-weight: 700;
@@ -71,9 +68,9 @@ color: #191919;
   text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-  color: #191919;  
+  color: #191919;
 }
-.MenRunningShoesTitle{
+.MenRunningShoesTitle {
   font-family: Inter;
   font-size: 13.75px;
   font-weight: 700;
@@ -81,66 +78,63 @@ color: #191919;
   text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-  color: #191919; 
+  color: #191919;
 }
 
-.walkImages{
+.walkImages {
   width: 100%;
-  height:100%;
+  height: 100%;
   background-image: url("../../assets/walkImages.svg");
   background-repeat: no-repeat;
   /* background-size: cover; */
   background-size: 100%;
 }
 
-.womenHeading{
+.womenHeading {
   font-family: Inter;
-font-size: 25.81px;
-font-weight: 700;
-line-height: 24px;
-text-align: center;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-color: #191919;
+  font-size: 25.81px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #191919;
 }
 
-.stepintostyleImage{
+.stepintostyleImage {
   width: 100%;
-  height:100%;
+  height: 100%;
   background-image: url("../../assets/stepintostyleImage.svg");
   background-repeat: no-repeat;
   /* background-size: cover; */
   background-size: 100%;
 }
 
-
-.headingSeason{
+.headingSeason {
   font-family: PoetsenOne;
-font-size: 48px;
-font-weight: 400;
-line-height: 50px;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 50px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
 }
-.shopNowButtonBlack{
+.shopNowButtonBlack {
   color: #243746;
   padding: 15.59px 40.77px 15.59px 40.77px;
   gap: 11.99px;
   border-radius: 18px;
   opacity: 0px;
 }
-.homePageShoes{
-margin-left: 20%;
+.homePageShoes {
+  margin-left: 20%;
 }
 
-.homePageShoesImageContent{
+.homePageShoesImageContent {
   width: 100%;
-  height:100%;
+  height: 100%;
   background-image: url("../../assets/homePageShoesImageBackground.svg");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: 0px;
-
 }

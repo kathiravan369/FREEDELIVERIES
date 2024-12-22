@@ -87,7 +87,7 @@ const HomePageSection: React.FC = () => {
             </Button>
           </Grid>
 
-          <Grid item md={7}   className={`${styles.homePageShoesImageContent}`}>
+          <Grid item md={7} className={`${styles.homePageShoesImageContent}`}>
             <Image
               className={`${styles.homePageShoes}`}
               src={homePageShoes}
@@ -157,16 +157,17 @@ const HomePageSection: React.FC = () => {
       </Grid>
 
       <Grid mt={5} item>
-        <Grid
-          mt={5}
-          container
-          alignItems="center"
-          justifyContent="center"
-        >
+        <Grid mt={5} container alignItems="center" justifyContent="center">
           {menRunningShoesNumber.map((item, index) => (
-            <Grid item key={index} className={`${styles.menRunningShoesContent}`}>
+            <Grid
+              item
+              key={index}
+              className={`${styles.menRunningShoesContent}`}
+            >
               <Image src={item.image} alt={item.title} />
-              <p className={`${styles.MenRunningShoesHeading}`}>{item.heading}</p>
+              <p className={`${styles.MenRunningShoesHeading}`}>
+                {item.heading}
+              </p>
               <p className={`${styles.MenRunningShoesTitle}`}>{item.title}</p>
             </Grid>
           ))}
@@ -222,9 +223,15 @@ const HomePageSection: React.FC = () => {
           justifyContent="center"
         >
           {womenheelsNumber.map((item, index) => (
-            <Grid item key={index} className={`${styles.menRunningShoesContent}`}>
+            <Grid
+              item
+              key={index}
+              className={`${styles.menRunningShoesContent}`}
+            >
               <Image src={item.image} alt={item.title} />
-              <p className={`${styles.MenRunningShoesHeading}`}>{item.heading}</p>
+              <p className={`${styles.MenRunningShoesHeading}`}>
+                {item.heading}
+              </p>
               <p className={`${styles.MenRunningShoesTitle}`}>{item.title}</p>
             </Grid>
           ))}
@@ -237,7 +244,7 @@ const HomePageSection: React.FC = () => {
         sx={{
           justifyContent: "center",
           alignItems: "center",
-          padding:"5% 5%"
+          padding: "5% 5%",
         }}
       >
         <Grid item md={6}>
@@ -301,16 +308,23 @@ const HomePageSection: React.FC = () => {
 
       <Grid mt={5} mb={5} item>
         <Grid
-          mt={5} mb={5}
+          mt={5}
+          mb={5}
           style={{ marginTop: "75px" }}
           container
           alignItems="center"
           justifyContent="center"
         >
           {girlsSportsShoesNumber.map((item, index) => (
-            <Grid item key={index} className={`${styles.menRunningShoesContent}`}>
+            <Grid
+              item
+              key={index}
+              className={`${styles.menRunningShoesContent}`}
+            >
               <Image src={item.image} alt={item.title} />
-              <p className={`${styles.MenRunningShoesHeading}`}>{item.heading}</p>
+              <p className={`${styles.MenRunningShoesHeading}`}>
+                {item.heading}
+              </p>
               <p className={`${styles.MenRunningShoesTitle}`}>{item.title}</p>
             </Grid>
           ))}
