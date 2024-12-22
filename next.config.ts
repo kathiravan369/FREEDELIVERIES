@@ -1,16 +1,12 @@
-// import type { NextConfig } from "next";
 
-// const nextConfig: NextConfig = {
-//   reactStrictMode: true,
-// };
-
-// export default nextConfig;
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  output: 'export',
+  basePath: '/FREEDELIVERIES',
   images: {
-    domains: ['your-image-domain.com'],
+    unoptimized: true, // GitHub Pages does not support Next.js image optimization
   },
 };
 
@@ -18,10 +14,3 @@ export default nextConfig;
 
 
 
-// /** @type {import('next').NextConfig} */
-// const nextConfig = {
-//   reactStrictMode: true,
-//     reactStrictMode: true,
-// };
-
-// export default nextConfig;
